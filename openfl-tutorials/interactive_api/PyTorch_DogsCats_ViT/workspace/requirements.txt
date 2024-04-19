@@ -1,4 +1,4 @@
-torch==1.13.1
+torch==2.2.0
 linformer==0.2.1
 torchvision==0.14.1
 vit-pytorch==0.40.2
