@@ -1,8 +1,10 @@
 numpy==1.23.3
-torch==1.13.1
+torch==2.2.0
 torchvision==0.13.1
 opacus==1.2.0
 matplotlib==3.6.0
-pillow==9.3.0
+pillow==10.3.0
 pyyaml==6.0
 cloudpickle
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
