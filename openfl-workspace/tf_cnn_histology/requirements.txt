@@ -1,3 +1,4 @@
 pillow
 tensorflow==2.9.3
 tensorflow-datasets
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
