@@ -6,3 +6,4 @@ matplotlib==3.6.0
 pillow==9.3.0
 pyyaml==6.0
 cloudpickle
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
