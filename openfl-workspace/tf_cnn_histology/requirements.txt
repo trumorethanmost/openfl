@@ -1,3 +1,4 @@
 pillow
 tensorflow==2.9.3
 tensorflow-datasets
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
