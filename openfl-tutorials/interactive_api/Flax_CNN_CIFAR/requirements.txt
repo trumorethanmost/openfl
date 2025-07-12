@@ -3,3 +3,5 @@ tensorflow-datasets==4.6.0
 jax==0.3.13
 --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 jaxlib==0.3.10+cuda11.cudnn805
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
